@@ -28,6 +28,12 @@ body {
     background-size: 60%;
 }
 
+@media (max-width: 600px) {
+    body {
+        background-size: 120%;
+    }
+}
+
 main {
     display: flex;
     flex-direction: column;
